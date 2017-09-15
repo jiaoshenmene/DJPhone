@@ -122,6 +122,7 @@ static id _ucsIPCCDelegate =nil; //代理对象，用于回调
         lc = [LinphoneManager getLc];
     }
     
+    
     LinphoneProxyConfig* proxyCfg = linphone_core_create_proxy_config(lc);
     NSString* server_address = domain;
     
